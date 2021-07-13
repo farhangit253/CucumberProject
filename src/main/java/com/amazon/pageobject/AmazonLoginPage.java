@@ -13,7 +13,6 @@ public class AmazonLoginPage extends Base {
 	
 	
 	
-	
 		public void signIn() {
 		WebElement clickSignIn=driver.findElement(By.xpath("//span[text()='Hello, Sign in']"));
 		clickSignIn.click();
